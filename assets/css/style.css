@@ -36,6 +36,8 @@ hr {
     margin-bottom: 25px;
 }
 
+
+/** START -- HEADER **/
 header {
     margin-top:0;
     background-color:#ffffff;
@@ -63,40 +65,26 @@ header nav ul li{
     margin: 0 0 0 15px;
     padding:0;
 }
+/** END -- HEADER **/
 
+/** START -- MAIN CONTENT **/
 #main-content{
     background-color: #ffffff;
     border: 1px solid #dddddd;
-    width:100%;
+    width:958px;
     margin-top: 20px;
 
 }
 
-#main-content h1{
+#main-content h2{
     margin-bottom:25px;
     margin-left: 25px;
 }
+/** END -- MAIN CONTENT **/
 
-#main-content img {
-    width:200px;
-    float:left;
-    margin: 0 20px 20px 25px;
-    border: 1px solid #202020
 
-}
 
-#main-content img:hover {
-    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
-}
-
-#main-content #content {
-    float:none;
-    margin-left:25px;
-    line-height: 24px;
-}
-
+/** START -- FOOTER **/
 footer {
     background-color: #666666;
     height: 50px;
@@ -106,6 +94,7 @@ footer {
     width: 100%;
     text-align: center;
     border-top: 8px solid #4aaaa5;
+
 }
 
 footer p {
@@ -113,10 +102,12 @@ footer p {
     bottom:0;
     left:0;
     right: 0;
-
     color: #a5a5a5;
     font-size: 11px;
 }
+/** START -- FOOTER **/
+
+
 
 
 

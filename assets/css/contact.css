@@ -1,0 +1,21 @@
+/** START -- CONTACT PAGE **/
+#contact {
+    width: 960px;
+    margin: 0 25px 0 25px;
+}
+
+#contact .form-control {
+    margin-bottom: 10px;
+}
+
+input, textarea, label {
+    width: 905px;
+    display: block;
+
+}
+
+input, textarea {
+    border: 1px solid #c3c3c3;
+    padding: 5px;
+}
+/** END-- CONTACT PAGE **/

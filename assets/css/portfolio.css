@@ -1,0 +1,28 @@
+/** START -- PORTFOLIO PAGE **/
+#portfolio {
+    margin-left:25px;
+}
+
+#portfolio .portfolio-item {
+    position: relative;
+    float: left;
+    text-align: center;
+    color:white;
+    margin: 0 25px 25px 0;
+}
+
+#portfolio .portfolio-item img {
+    width: 200px;
+    padding:0;
+}
+
+#portfolio .portfolio-item .desc {
+    margin:0;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    background-color: #4aaaa5;
+    padding: 10px 0;
+
+}
+/** END-- PORTFOLIO PAGE **/

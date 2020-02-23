@@ -1,0 +1,14 @@
+/** START -- ABOUT PAGE **/
+#about img {
+    width:200px;
+    float:left;
+    margin: 0 20px 20px 25px;
+    border: 1px solid #202020
+
+}
+
+#about p{
+    margin-left:25px;
+    line-height: 24px;
+}
+/** END -- ABOUT PAGE **/
