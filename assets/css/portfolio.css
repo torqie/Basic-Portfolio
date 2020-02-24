@@ -1,6 +1,6 @@
 /** START -- PORTFOLIO PAGE **/
 #portfolio {
-    margin-left:25px;
+
 }
 
 #portfolio .portfolio-item {
@@ -8,12 +8,36 @@
     float: left;
     text-align: center;
     color:white;
-    margin: 0 25px 25px 0;
+    margin: 0 20px 20px 0;
+}
+
+#portfolio .portfolio-item:hover {
+    position: relative;
+    float: left;
+    text-align: center;
+    color:white;
+    margin: 0 20px 20px 0;
 }
 
 #portfolio .portfolio-item img {
     width: 200px;
     padding:0;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 0px solid #000000;
+}
+
+#portfolio .portfolio-item img:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    transition: filter 1s ease;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 #portfolio .portfolio-item .desc {

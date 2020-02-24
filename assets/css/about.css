@@ -2,13 +2,16 @@
 #about img {
     width:200px;
     float:left;
-    margin: 0 20px 20px 25px;
-    border: 1px solid #202020
+    margin: 0 25px 0 0;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 0px solid #000000;
 
 }
 
 #about p{
-    margin-left:25px;
+    margin:0;
     line-height: 24px;
 }
 /** END -- ABOUT PAGE **/
