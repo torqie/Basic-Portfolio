@@ -67,6 +67,7 @@ header nav ul li{
 }
 header nav ul li:last-child {
     border: none;
+    padding-right: 0;
 }
 
 header a:before{
