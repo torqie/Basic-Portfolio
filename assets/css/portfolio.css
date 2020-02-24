@@ -1,8 +1,4 @@
 /** START -- PORTFOLIO PAGE **/
-#portfolio {
-
-}
-
 #portfolio .portfolio-item {
     position: relative;
     float: left;
@@ -47,6 +43,5 @@
     width: 100%;
     background-color: #4aaaa5;
     padding: 10px 0;
-
 }
 /** END-- PORTFOLIO PAGE **/
