@@ -13,11 +13,6 @@ input, textarea {
     padding: 5px;
 }
 
-input:focus, textarea:focus {
-    box-shadow: 0 0 5px #4aaaa5;
-    border: 1px solid #4aaaa5;
-}
-
 button {
     font-size: 15px;
     color: #ffffff;
